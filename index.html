@@ -1,0 +1,48 @@
+
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+      <h2>Note Identification</h2>
+      <p>Note : Play A, C, D, E and Background Noise!🦄😎😎😎😁</p>
+      </div>
+    <div class="main_div">
+      <center>
+     <br>
+     <button class="btn btn-warning" onclick="startClassification();"> Start🏁</button>
+     <h3 id="r_label">I Can Hear -</h3>
+     <h4 id="r_confidence">Accuracy -</h4>
+     <br>
+     <img src="A.png" id="A" width="240" height="240">
+     <img src="C.png" id="C" width="240" height="240">
+     <img src="D.png" id="D" width="240" height="240">
+     <img src="E.png" id="E" width="240" height="240">
+     <img src="Noise.png" id="N" width="240" height="240">
+      </center>
+    </div>
+    <div class="copyright_footer">Developed By WhiteHatJr Team</div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

@@ -1,0 +1,38 @@
+body
+{
+    Font-Family:  'Architects Daughter', cursive;
+    background-color: rgb(255, 151, 215);
+}
+
+.header_div{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 206, 216);
+}
+
+.header_div p {
+    font-family: 'Architects Daughter', cursive;
+    color:darkgray;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main_div button{
+    font-family: 'Architects Daughter', cursive;
+    margin-top:30px;
+    width:130px;
+    font-weight: bolder;
+    letter-spacing: 3 px;
+}
+
+.copy_right_footer {
+    position:fixed;
+    color:rgb(114, 25, 25);
+    bottom:0px;
+    width: 100%;
+    font-size:18px;
+    background: color #f5f5f5;;
+    line-height: 3;
+    text-align: center ;
+    text-shadow: 5px 5px 5px rgb(158, 67, 67);
+}
